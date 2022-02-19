@@ -1,0 +1,80 @@
+h1 {
+    font-family: 'Raleway',sans-serif; 
+    margin-top: -1%;
+    margin-bottom: 2%;
+    font-size: 2.4em;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 60%;
+    border-radius: 50%;
+    float: right;
+    background: #a580ff;
+    margin-left: auto;
+    animation-name: avataranimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes avataranimation {
+    from {background-color: #7748f0;}
+    to {background-color: #a580ff;}
+  }
+
+.avatarDiv {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:hover {
+    color: #a580ff;
+}
+
+.buttonLight {
+    font-family: 'Raleway',sans-serif; 
+    background: white;
+    border: 2px solid #a580ff;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 4px;
+    padding: 8% 10% 8% 10%;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+}
+
+.buttonAboutMe {
+    margin-top: 8%;
+    margin-right: 5%;
+    width: 33%;
+}
+
+.buttonLight:hover{
+    border: 2px solid #6d42d8;
+}
+
+.buttonNavBar {
+    width: 4%;
+    background: transparent;
+    border: none;
+}
+
+.loadPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loaders {
+    margin-left: 2%;
+}
